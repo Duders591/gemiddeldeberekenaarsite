@@ -20,7 +20,7 @@ function bereken() {
         i++
         if (i >= sliderAmount) {
             while (e < sliderAmount) {
-                antwoord += parseInt(plusElkaar[e]);
+                antwoord += parseFloat(plusElkaar[e]);
                 e++
                 if (e >= sliderAmount) {
                     antwoord /= sliderAmount;
@@ -34,4 +34,5 @@ function bereken() {
     e = 0;
     antwoord = 0;
     plusElkaar = []
+
 }
