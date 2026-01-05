@@ -1,5 +1,5 @@
 console.log("JavaScript linked successfully!");
-let sliderAmount = parseInt(document.getElementById("slider").value);
+let sliderAmount = parseFloat(document.getElementById("slider").value);
 const counter = document.getElementById("testCounter");
 const berekeningen = document.getElementById("berekeningen").children;
 let plusElkaar = [];
@@ -7,7 +7,7 @@ let i = 0;
 let e = 0;
 let antwoord = 0;
 function update() {
-    sliderAmount = parseInt(document.getElementById("slider").value);
+    sliderAmount = parseFloat(document.getElementById("slider").value);
     counter.textContent = sliderAmount;
 }
 update()
@@ -36,3 +36,4 @@ function bereken() {
     plusElkaar = []
 
 }
+
