@@ -34,6 +34,4 @@ function bereken() {
     e = 0;
     antwoord = 0;
     plusElkaar = []
-
 }
-
